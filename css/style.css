@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +14,7 @@ body {
     padding: 30px;
     border-radius: 5px;
     width: 450px;
-    height: 90vh;
+    min-height: 90vh;
     background-color: rgb(191, 232, 240);
     margin: 15px auto;
 }
@@ -26,7 +25,8 @@ body {
     height: 50px;
     margin: 10px auto;
     padding: 5px;
-    border: 3px solid rgb(8, 87, 107);;
+    border: 3px solid rgb(8, 87, 107);
+    ;
     vertical-align: middle;
     border-radius: 5px;
 }
@@ -46,12 +46,16 @@ button {
 
 .paragraph-styling {
     margin: 10px auto;
+    padding: 12px 10px;
     cursor: pointer;
     font-size: 20px;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 10px;
 }
 
 .done-paragraph-styling {
     background-color: rgb(36, 175, 36);
-    color: white;
+    color: red;
     font-weight: bold;
 }
